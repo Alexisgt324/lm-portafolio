@@ -1,0 +1,11 @@
+PROYECTO UT03 - BICIRUTA
+
+1. Abre la carpeta lm-portafolio en Visual Studio Code.
+2. Instala la extensión Live Server si no la tienes.
+3. Haz clic derecho sobre ut03/ruta_madrid.html y elige Open with Live Server.
+4. Para ver la primera página, abre ut03/alquiler/alquiler.html también con Live Server.
+
+Este paquete contiene el material multimedia original del profesor y el código preparado de ambas páginas.
+La auditoría Lighthouse de la página ruta_madrid.html y su publicación en GitHub deben comprobarse desde tu equipo; no se presentan como ejecutadas.
+El formulario es una demostración local y no almacena datos.
+Los subtítulos VTT fueron preparados en la práctica y deben contrastarse con el audio real antes de entregar.

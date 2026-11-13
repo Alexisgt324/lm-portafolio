@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruta en bicicleta por Madrid Río: etapas, recomendaciones y presentación accesible.">
+  <title>Ruta Madrid Río | BiciRuta</title>
+  <link rel="stylesheet" href="ruta_madrid.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido principal</a>
+  <header class="cabecera">
+    <div class="cabecera-interior">
+      <p class="marca">BiciRuta <span>Madrid</span></p>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" aria-current="page">Inicio</a></li>
+          <li><a href="#recorrido">Recorrido</a></li>
+          <li><a href="#etapas">Etapas</a></li>
+          <li><a href="#video">Vídeo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido" tabindex="-1">
+    <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+      <div class="hero-interior">
+        <p class="etiqueta">RUTAS EN BICICLETA · MADRID</p>
+        <h1 id="titulo-principal">Descubre Madrid Río sobre dos ruedas</h1>
+        <p>Una propuesta para recorrer Madrid en bicicleta, disfrutar de los espacios verdes y conocer algunos de los lugares más representativos del entorno del río Manzanares.</p>
+        <a class="boton" href="#recorrido">Descubrir la ruta</a>
+      </div>
+    </section>
+    <div class="contenedor">
+      <section id="recorrido" aria-labelledby="titulo-recorrido">
+        <p class="etiqueta">EL RECORRIDO</p>
+        <h2 id="titulo-recorrido">Una ruta para explorar</h2>
+        <p>Madrid Río ofrece espacios para pasear y desplazarse en bicicleta junto al Manzanares. Nuestra propuesta incluye varias paradas para disfrutar del entorno.</p>
+        <article class="tarjeta-ruta">
+          <div class="imagen-ruta">
+            <img src="alquiler/img/bici_urbana-800.jpg" srcset="alquiler/img/bici_urbana-400.jpg 400w, alquiler/img/bici_urbana-800.jpg 800w, alquiler/img/bici_urbana-1200.jpg 1200w" sizes="(min-width: 700px) 360px, calc(100vw - 64px)" width="1200" height="675" loading="lazy" alt="Ilustración de la bicicleta urbana U100">
+          </div>
+          <div class="tarjeta-contenido">
+            <h3>Madrid Río en bicicleta</h3>
+            <p>Un recorrido urbano propuesto con paradas en el Puente de Segovia, el entorno del Puente de Toledo y Matadero Madrid.</p>
+            <p>Recomendamos circular con precaución, respetar las señales y dar prioridad a los peatones donde corresponda.</p>
+          </div>
+        </article>
+      </section>
+      <section id="etapas" aria-labelledby="titulo-etapas">
+        <p class="etiqueta">PLANIFICACIÓN</p>
+        <h2 id="titulo-etapas">Etapas de la ruta</h2>
+        <p>Esta tabla presenta una planificación orientativa. Los tiempos son sugerencias para organizar la visita, no mediciones reales del recorrido.</p>
+        <div class="tabla-scroll">
+          <table>
+            <caption>Propuesta de paradas y tiempos de visita</caption>
+            <thead><tr><th scope="col">Etapa</th><th scope="col">Lugar</th><th scope="col">Tiempo sugerido</th><th scope="col">Actividad</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">1</th><td>Puente de Segovia</td><td>15 minutos</td><td>Inicio y observación del entorno</td></tr>
+              <tr><th scope="row">2</th><td>Puente de Toledo</td><td>20 minutos</td><td>Parada y descanso</td></tr>
+              <tr><th scope="row">3</th><td>Matadero Madrid</td><td>25 minutos</td><td>Visita del entorno cultural</td></tr>
+            </tbody>
+            <tfoot><tr><th scope="row" colspan="2">Tiempo sugerido de paradas</th><td>60 minutos</td><td>No incluye desplazamientos</td></tr></tfoot>
+          </table>
+        </div>
+      </section>
+      <section id="video" aria-labelledby="titulo-video">
+        <p class="etiqueta">MULTIMEDIA</p>
+        <h2 id="titulo-video">Conoce la ruta en vídeo</h2>
+        <figure class="video-ruta">
+          <video controls preload="metadata" width="640" height="360" poster="alquiler/img/ruta_rio_poster.jpg">
+            <source src="alquiler/media/ruta_rio.mp4" type="video/mp4">
+            <track kind="captions" src="alquiler/media/ruta_rio.es.vtt" srclang="es" label="Español" default>
+            Tu navegador no admite vídeo HTML5.
+          </video>
+          <figcaption>Vídeo de presentación de la ruta del río facilitado en el material de BiciRuta, con subtítulos en español. Material de referencia; no representa necesariamente las etapas descritas.</figcaption>
+        </figure>
+      </section>
+      <aside class="consejos" aria-labelledby="titulo-consejos">
+        <h2 id="titulo-consejos">Consejos para disfrutar de la ruta</h2>
+        <ul><li>Comprueba el estado de la bicicleta.</li><li>Lleva agua y planifica los descansos.</li><li>Respeta las normas de circulación.</li><li>Adapta la velocidad al entorno.</li><li>Consulta las condiciones meteorológicas.</li></ul>
+      </aside>
+      <section id="contacto" aria-labelledby="titulo-contacto">
+        <p class="etiqueta">CONTACTO</p>
+        <h2 id="titulo-contacto">Participa en BiciRuta</h2>
+        <p>Prueba el siguiente formulario de demostración para registrar tu interés en la ruta.</p>
+        <form id="formulario">
+          <div class="campo"><label for="nombre">Nombre</label><input type="text" id="nombre" name="nombre" autocomplete="name" required></div>
+          <div class="campo"><label for="correo">Correo electrónico</label><input type="email" id="correo" name="correo" autocomplete="email" required></div>
+          <button type="submit" class="boton">Enviar formulario</button>
+          <p id="mensaje" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="pie"><p><strong>BiciRuta Madrid</strong></p><p>Proyecto educativo de Lenguajes de Marcas · ASIR</p><p><a href="#inicio">Volver al inicio</a></p></footer>
+  <script>
+    document.getElementById('formulario').addEventListener('submit', function(event) {
+      event.preventDefault();
+      document.getElementById('mensaje').textContent = 'Formulario de demostración completado correctamente.';
+    });
+  </script>
+</body>
+</html>
